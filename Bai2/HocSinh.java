@@ -1,11 +1,19 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package Bai2;
 
+/**
+ *
+ * @author THIEN
+ */
 public class HocSinh {
     public String hoTen;
     public String lop ;
-    public double toan;
-    public double ly;
-    public double hoa ;
+    public double toan = 9;
+    public double ly = 10;
+    public double hoa = 10;
     public double diemTrungBinh;
 
     public HocSinh(){
@@ -60,5 +68,4 @@ public class HocSinh {
     public double tinhDiemTrungBinh(){
         return (toan + ly + hoa) /3;
     }
-    
 }
